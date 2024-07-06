@@ -1,0 +1,44 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .box-1:hover {
+            transform: translate(50px, 50px);
+        }
+
+        .box-2:hover {
+            transform: rotate(45deg);
+        }
+
+        .box-3:hover {
+            transform: scale(1.5);
+        }
+
+        .box-4:hover {
+            transform: skew(20deg, 10deg);
+        }
+
+        .box-5:hover {
+            transform: translate(50px, 50px) rotate(45deg) scale(1.5) skew(20deg, 10deg);
+        }
+    
