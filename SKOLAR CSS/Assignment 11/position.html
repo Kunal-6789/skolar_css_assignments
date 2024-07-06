@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Techniques</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>CSS Positioning Techniques</h1>
+
+    <div class="container static-box box">
+        <h2>Static Positioning</h2>
+        <p>This is a statically positioned element. Static positioning is the default positioning method.</p>
+    </div>
+
+    <div class="container relative-box box">
+        <h2>Relative Positioning</h2>
+        <p>This is a relatively positioned element. It is moved 10px down and 20px to the right from its original position.</p>
+    </div>
+
+    <div class="container absolute-container box">
+        <h2>Absolute Positioning</h2>
+        <p>This container is relatively positioned. The box inside is absolutely positioned.</p>
+        <div class="absolute-box">
+            Absolutely positioned box
+        </div>
+    </div>
+
+    <div class="container content">
+        <div class="sticky-box">
+            Sticky positioned element
+        </div>
+        <h2>Sticky Positioning</h2>
+        <p>This is a sticky positioned element. It will stick to the top of the viewport when you scroll past it.</p>
+    </div>
+
+    <div class="content">
+        <p>This is some content to demonstrate scrolling behavior for the sticky element. Scroll down to see how the sticky element behaves.</p>
+    </div>
+
+    <div class="content">
+        <p>More content to show scrolling behavior.</p>
+    </div>
+
+    <div class="fixed-box">
+        Fixed positioned element
+    </div>
+</body>
+</html>

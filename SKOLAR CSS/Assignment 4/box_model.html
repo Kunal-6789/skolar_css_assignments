@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">CSS Box Model</h1>
+    <p>This page demonstrates the CSS box model with examples showing the effect of padding, border, and margin on different elements.</p>
+
+    <div class="container">
+        <div class="box content-box">
+            <p>content-box model</p>
+        </div>
+        <div class="box border-box">
+            <p>border-box model</p>
+        </div>
+    </div>
+
+    <h2>Explanation</h2>
+    <p>
+        In the <strong>content-box</strong> model, the width and height you set for an element only apply to the content. Padding, border, and margin are added outside the content dimensions.
+    </p>
+    <p>
+        In the <strong>border-box</strong> model, the width and height you set include the content, padding, and border. The total size of the element does not increase with padding and border.
+    </p>
+</body>
+</html>

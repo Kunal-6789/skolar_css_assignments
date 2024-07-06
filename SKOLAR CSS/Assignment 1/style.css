@@ -1,0 +1,66 @@
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.intro {
+    font-weight: bold;
+    color: blue;
+}
+
+.link {
+    text-decoration: none;
+    color: #00BFFF;
+}
+
+.special {
+    font-style: italic;
+    color: red;
+}
+
+#heading {
+    font-size: 2em;
+    color: blue;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+input[placeholder] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#button{
+    background-color: green;
+    color: white;
+    
+}
+
+a:hover {
+    color: #FF1493;
+}
+
+.intro::first-line {
+    font-weight: bold;
+    color: blue;
+}
+
+p::first-line{
+    font-weight: bold;
+    color: black;
+}
+
+.h2{
+    text-align: center;
+    color: crimson;
+}
+
+form{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}

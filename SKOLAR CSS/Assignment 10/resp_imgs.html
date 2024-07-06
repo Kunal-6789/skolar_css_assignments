@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Images Example</h1>
+        <picture>
+            <source srcset="
+            https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?w=740&t=st=1720117362~exp=1720117962~hmac=f7ec32ad6782ab6582104d4ce3c715c80453a66f0f2f3584ee7b38347227e10b 800w,
+            https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?w=740&t=st=1720117362~exp=1720117962~hmac=f7ec32ad6782ab6582104d4ce3c715c80453a66f0f2f3584ee7b38347227e10b 400w" 
+                    sizes="(max-width: 599px) 100vw,
+                           (max-width: 1023px) 50vw,
+                           33vw">
+            <img src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?w=740&t=st=1720117362~exp=1720117962~hmac=f7ec32ad6782ab6582104d4ce3c715c80453a66f0f2f3584ee7b38347227e10b" alt="Responsive Image" class="responsive-image">
+        </picture>
+        <p>This example demonstrates how to use the <code>srcset</code> attribute and CSS to ensure images look good on various screen sizes and resolutions.</p>
+    </div>
+</body>
+</html>
